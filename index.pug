@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html(lang='eng')
+  head
+    title
+    link(href="assets/sass/style.css"
+          rel="stylesheet" )
+    link(href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet" )
+  body
+    .model-sec
+      h3 Model
+      .model-inn.d-fl
+        mixin link(src)
+          figure
+            img(src=src)&attributes(attributes)
+        +link('assets/img/model_01.jpg')(attr="model")
+        +link('assets/img/model_02.jpg')(attr="model")
+        +link('assets/img/model_03.jpg')(attr="model")
+
+
+        
+          
